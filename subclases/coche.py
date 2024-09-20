@@ -1,8 +1,8 @@
-import superclases.vehiculo as Vehiculo
+from superclases.vehiculo import Vehiculo
 
-class Coche(Vehiculo):
+class coche(Vehiculo):
     def __init__(self, color, ruedas, velocidad, cilindrada):
-        Vehiculo.__init__(self, color, ruedas)
+        super().__init__(self, color, ruedas)
         self.velocidad = velocidad
         self.cilindrada = cilindrada
     def __str__(self):
