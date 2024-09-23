@@ -1,5 +1,7 @@
 # Prueba1_POO
 
+link al repositorio: https://github.com/Jacobo24/Prueba1_POO.git
+
 Enunciado
 Utilizando esta nueva técnica extiende la clase Vehiculo y realiza la siguiente
 implementación:
